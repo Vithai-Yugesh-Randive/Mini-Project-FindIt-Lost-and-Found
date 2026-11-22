@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindIt - Browse Items</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container d-flex justify-content-between flex-wrap">
+        <a class="navbar-brand" href="index.html">FindIt.</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a class="active" href="browse.html">Browse Items</a>
+            <a href="lost.html">Report Lost</a>
+            <a href="found.html">Report Found</a>
+            <a href="reports.html">My Reports</a>
+        </div>
+    </div>
+</nav>
+
+<div class="page-heading">
+    <h1>Browse Lost & Found Items</h1>
+    <p>Explore items reported by students on campus.</p>
+</div>
+
+<section class="container py-5">
+    <div class="row mb-4">
+        <div class="col-md-6 mb-2">
+            <input type="search" class="form-control"
+                   placeholder="Search for an item...">
+        </div>
+        <div class="col-md-3 mb-2">
+            <select class="form-select">
+                <option>All Categories</option>
+                <option>Electronics</option>
+                <option>Accessories</option>
+                <option>Books</option>
+                <option>Clothing</option>
+            </select>
+        </div>
+        <div class="col-md-3 mb-2">
+            <select class="form-select">
+                <option>All Items</option>
+                <option>Lost Items</option>
+                <option>Found Items</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083" alt="Sunglasses">
+                <div class="card-body">
+                    <span class="badge bg-danger">Lost</span>
+                    <h5 class="mt-2">Black Sunglasses</h5>
+                    <p>Category: Accessories</p>
+                    <p>Location: College Library</p>
+                    <p>Date: 15 November 2026</p>
+                    <a href="lost.html" class="btn btn-primary">Report Similar Item</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa" alt="Handbag">
+                <div class="card-body">
+                    <span class="badge bg-success">Found</span>
+                    <h5 class="mt-2">Brown Handbag</h5>
+                    <p>Category: Accessories</p>
+                    <p>Location: College Canteen</p>
+                    <p>Date: 14 November 2026</p>
+                    <a href="found.html" class="btn btn-success">View Report Form</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" alt="Headphones">
+                <div class="card-body">
+                    <span class="badge bg-danger">Lost</span>
+                    <h5 class="mt-2">Wireless Headphones</h5>
+                    <p>Category: Electronics</p>
+                    <p>Location: Computer Lab</p>
+                    <p>Date: 13 November 2026</p>
+                    <a href="lost.html" class="btn btn-primary">Report Similar Item</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <h4>FindIt.</h4>
+    <p>Helping lost belongings find their way home.</p>
+    <p>2026 FindIt</p>
+</footer>
+
+</body>
+</html>
